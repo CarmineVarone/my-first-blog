@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 8%;
+  background-color: #00CCCC;
+  position: fixed;
+}
+
+.headerTitle {
+  padding: 0;
+  margin: 0;
+}
+
+.headerTitle a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.headerTitle a:hover {
+  color: dimgray;
+}
+
+#postContainer {
+  width: 100%;
+  height: 91%;
+  padding: 20px 5%;
+  margin: 0;
+  position: fixed;
+  top: 11%;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+#Post {
+  width: 90%;
+  margin: 0;
+  margin-bottom: 10px;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+  padding-top: 20px;
+  font-family: sans-serif;
+  color: dimgray;
+}
+
+#Post a {
+  color: dimgray;
+  text-decoration: none;
+}
+
+.postPageDiv {
+  font-family: sans-serif;
+  color: dimgray;
+  margin: 0;
+  width: 90%;
+}

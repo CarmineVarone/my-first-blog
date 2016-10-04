@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>strangeblob</title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  </head>
+
+  <body>
+    <div class="Header">
+      <h2 class="headerTitle"><a href="/">StrangeBlob</a></h2>
+    </div>
+
+    <div id="postContainer">
+    {% block content %}
+    {% endblock %}
+    </div>
+  </body>
+</html>
