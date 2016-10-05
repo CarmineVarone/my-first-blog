@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-
+  <div id="postContainer">
     {% for p in posts %}
       <div id="Post">
         <h2><a href="{% url 'post_detail' pk=p.pk %}">{{p.title}}</a></h2>
@@ -9,5 +9,6 @@
         <p><h9>Data: {{ p.published_date }}</h9></p>
       </div>
     {% endfor %}
+  </div>
 
 {% endblock content %}
